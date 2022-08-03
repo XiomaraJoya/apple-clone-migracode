@@ -33,8 +33,11 @@ body {
     cursor: pointer;
 }
 
+.navbar-button:hover {
+    color: #ffffff;
+}
 .banner-unicef {
-    border: 1px solid aqua;
+    border: 1px solid aqua; background-color:rgb(247, 245, 253) ;
 }
 
 .products-highlights {
