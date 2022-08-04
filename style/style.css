@@ -36,6 +36,11 @@ body {
 .navbar-button:hover {
     color: #ffffff;
 }
+
+#search {
+    
+}
+
 .banner-unicef {
     border: 1px solid aqua; background-color:rgb(247, 245, 253) ;
 }
@@ -47,3 +52,9 @@ body {
 footer {
     border: 1px solid red;
 }
+#war {color: #06c;
+    letter-spacing: inherit;
+    font-size: 14px;
+    text-decoration: none;
+    margin-top: 4px;max-width: 215px
+;}
