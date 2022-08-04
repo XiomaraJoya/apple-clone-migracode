@@ -42,19 +42,24 @@ body {
 }
 
 .banner-unicef {
-    border: 1px solid aqua; background-color:rgb(247, 245, 253) ;
+    border: 1px solid rgb(79, 161, 161); 
+    background-color:rgb(247, 245, 253) ;
+    height: 70px;
+    align-items: center;
+    display: flex;
+    padding: 0px;
+    color: #06c;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    cursor: pointer;
+    justify-content: center;
 }
+.banner-unicef img {margin-right: 10px;}
 
-.products-highlights {
-    border: 1px solid yellowgreen;
+.products-higlights {border: 1px solid rgb(122, 133, 101);
 }
 
 footer {
     border: 1px solid red;
 }
-#war {color: #06c;
-    letter-spacing: inherit;
-    font-size: 14px;
-    text-decoration: none;
-    margin-top: 4px;max-width: 215px
-;}
+
