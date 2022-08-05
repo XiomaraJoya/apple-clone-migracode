@@ -10,7 +10,7 @@ body {
     background-color: #272729;
     align-items: center;
     justify-content: space-evenly;
-    padding: 0% 10%;
+    padding: 0 4px
 }
 
 .navbar-link {
@@ -37,7 +37,8 @@ body {
     color: #ffffff;
 }
 
-#search {
+#search {background-position: -33px -9px;
+    background-size: 410% 410%;
     
 }
 
@@ -56,9 +57,37 @@ body {
 }
 .banner-unicef img {margin-right: 10px;}
 
-.products-higlights {border: 1px solid rgb(122, 133, 101);
+.main-foto{
+    text-align: center;
+    background-image: url("./resources/image/books.jpg");
+    min-height: 
+    
+
+    
+    
+
+}  
+
+.t1{
+    font-size: 3rem;
+    color: black;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    
+    
 }
 
+.t2{
+    font-size: 1.7rem;
+    color:black;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+.buy {
+    font-size: 1rem;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    text-decoration: none;}
+
+.macbook-air img {margin-right: 10px ;}
 footer {
     border: 1px solid red;
 }
