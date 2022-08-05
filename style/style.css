@@ -4,6 +4,10 @@ body {
     margin: 0;
     flex-direction: column;
 }
+
+.a {
+    text-decoration: none;
+}
 .navbar {
     display: flex;
     flex-direction: row;
@@ -57,12 +61,16 @@ body {
 }
 .banner-unicef img {margin-right: 10px;}
 
-.main-foto{
+.main-pic{
     text-align: center;
-    background-image: url("./resources/image/books.jpg");
-    min-height: 
-    background-color: white;
-    padding: auto;
+    background-image: url("./resources/image/macbook_air");
+    min-height:  600px; 
+    background-position: center;
+    background-size: 100px auto;
+    background-color:white;
+    padding-top: 15px;
+    cursor: pointer;
+    
 
 
 } 
@@ -84,15 +92,29 @@ body {
     
 }
 
-.buy {
-    font-size: 1rem;
+.finaly-link {
+    font-size: 1,1rem;
     font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
-    text-decoration: none;
     color: #06c;
-    margin-top: 7px;}
+    margin-top: 7px;
+    text-decoration: none;
+    margin: 0 20px 0 25px;}
+    
 
-.macbook-air img {margin-right: 10px ;}
-footer {
-    border: 1px solid red;
+.black
+    {color: black;
+
+
 }
+.main-pic-Ipone {
+    text-align: center;
+    background-image: url("./resources/image/macbook_air");
+    min-height:  650px; 
+    background-position: center 70px;
+    background-size: 1200px auto;
+    background-color:white;
+    padding-top: 15px;
+    cursor: pointer;
+    padding-top: 15px;
 
+}
